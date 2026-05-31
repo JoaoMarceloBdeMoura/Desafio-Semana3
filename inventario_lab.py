@@ -23,3 +23,7 @@ reagentes_unicos = set(reagentes)
 
 print(f"Reagentes únicos: {reagentes_unicos}")
 print(f"Quantidade de reagentes diferentes: {len(reagentes_unicos)}")
+
+
+# Passo 2 - Zip
+inventario = list(zip(reagentes, lotes, purezas))
