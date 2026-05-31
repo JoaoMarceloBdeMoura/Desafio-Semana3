@@ -17,7 +17,9 @@ purezas = [99.5, 92.0, 99.5, 98.0, 99.9, 98.5, 96.0, 99.0, 99.0, 98.8, 99.5, 92.
 96.0, 99.9, 98.0, 99.0, 95.0, 99.5, 92.0, 98.8, 99.0, 99.9, 99.5, 92.0, 99.0, 98.0, 98.5,
 95.0, 96.0]
 
-print(purezas)
-print(lotes)
-print(reagentes)
 
+# Passo 1 - Set
+reagentes_unicos = set(reagentes)
+
+print(f"Reagentes únicos: {reagentes_unicos}")
+print(f"Quantidade de reagentes diferentes: {len(reagentes_unicos)}")
