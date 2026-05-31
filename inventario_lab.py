@@ -27,3 +27,9 @@ print(f"Quantidade de reagentes diferentes: {len(reagentes_unicos)}")
 
 # Passo 2 - Zip
 inventario = list(zip(reagentes, lotes, purezas))
+
+# Passo 3 - Unpacking
+print("\nRelatório do Inventário:")
+
+for reagente, lote, pureza in inventario:
+    print(f"Frasco do Lote: {lote} | Reagente: {reagente} | Pureza: {pureza}%")
