@@ -41,3 +41,5 @@ lotes_aprovados = [lote for reagente, lote, pureza in inventario if pureza >= 98
 
 print("\nLotes aprovados (pureza >= 98.0%):")
 print(lotes_aprovados)
+
+print("teste")
